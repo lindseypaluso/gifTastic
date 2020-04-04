@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>GifTastic!</title>
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <div>
+            <h1 class="display-3 text-dark">Reaction Gifs!</h1>
+        
+            <!-- Rendered buttons will get dumped here  -->
+            <div id="buttons-view"></div>
+        
+            <form id="gif-form">
+            <label for="gif-input" class="lead text-dark">Search for more reactions:</label>
+            <input type="text" id="gif-input" class="rounded border">
+        
+            <!-- Button triggers new gif type to be added -->
+            <input id="add-gif-type" class="btn btn-large btn-info pt-1 pb-1" type="submit" value="Add">
+            </form>
+        </div>
+
+        <!-- Gifs will get dumped Here -->
+            <h3 id="animate-text" class="mx-auto pt-2 pb-2 col-6 border text-dark rounded mb-4 bg-white">Click an image to animate</h3>
+            <div id="gif-view"></div>
+
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/java.js"></script>
+
+</html>

@@ -1,0 +1,20 @@
+body {
+    background-color: mintcream;
+    font-family:'Spartan';
+    
+  }
+
+  button,
+div,
+form,
+input {
+    margin: 10px;
+    }
+
+.gif-div {
+    font-size: 12px;
+}
+
+img {
+    border-radius: 3px;
+}
